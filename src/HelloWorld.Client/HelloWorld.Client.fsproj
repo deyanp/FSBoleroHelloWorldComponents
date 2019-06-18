@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="services/MerchantService.fs" />
+    <Compile Include="components/Merchants/Merchants.fs" />
+    <Compile Include="components/Home/Home.fs" />
+    <Compile Include="components/Books/Books.fs" />
+    <Compile Include="components/Counter/Counter.fs" />
+    <Compile Include="components/SignIn/SignIn.fs" />
+    <Compile Include="Main.fs" />
+    <Compile Include="Startup.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Bolero" Version="0.5.28-preview*" />
+    <PackageReference Include="Bolero.Build" Version="0.5.28-preview*" />
+    <PackageReference Include="Bolero.HotReload" Version="0.5.28-preview*" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0-preview5-*" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0-preview5-*" />
+  </ItemGroup>
+</Project>
