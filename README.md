@@ -1,1 +1,3 @@
 # FSBoleroHelloWorldComponents
+
+Attempt to re-structure the https://github.com/fsbolero/Bolero into components ...
